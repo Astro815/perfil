@@ -1,0 +1,79 @@
+li[name=card_alura] {
+    background-image: linear-gradient(rgb(38, 56, 63), rgb(38, 56, 63)), radial-gradient(circle at top left, #4ef4a5, #3020ff);
+}
+
+li[name=card_cc50] {
+    background-image: linear-gradient(#372c1a, #372c1a), radial-gradient(circle at top left, #b4f44e, #ff8420);
+}
+
+li[name=card_senai] {
+    background-image: linear-gradient(rgb(42, 44, 59), rgb(42, 44, 59)), radial-gradient(circle at top left, #4e96f4, #5456c4);
+}
+
+li[name=card_agrinho] {
+    background-image: linear-gradient(rgb(42, 59, 45), rgb(54, 59, 42)), radial-gradient(circle at top left, #4ef478, #74c454);
+}
+
+
+/* REDES SOCIAIS */
+
+.cardRS>li {
+    background: var(--color3);
+    flex-direction: row !important;
+    grid-template-columns: 20% 80%;
+    background-image: linear-gradient(var(--color3), var(--color3)), radial-gradient(circle at top left, #745f25, #745f25);
+}
+
+.cardRS>li>div {
+    width: 100%;
+}
+
+.cardRS>li>img {
+    height: 5em;
+    border-radius: 5em;
+    margin-top: 0.25em;
+    margin-right: 1em;
+    image-rendering: optimizeSpeed;
+}
+
+.cardRS>li>div>div.box>a {
+    color: var(--textWhite);
+    font-weight: bolder;
+    font-family: system-ui;
+    font-size: 12pt;
+    border-radius: 1em;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    height: 2.25em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: double 3px transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 0px;
+    margin-bottom: 0.25em;
+}
+
+.cardRS>li>div>div.box>a:hover {
+    filter: brightness(1.5);
+}
+
+.cardRS>li>div>div.box>a>img {
+    height: 100%;
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.cardRS>li>div>div.box>a.youtube {
+    background-image: linear-gradient( rgb(100 39 39), rgb(62 26 26)), radial-gradient(circle at top left, #ff3030, #a53535);
+}
+
+.cardRS>li>div>div.box>a.instagram {
+    background-image: linear-gradient(153deg, hsl(44deg 35% 20%), hsl(26deg 35% 20%), hsl(333deg 35% 20%), hsl(283deg 35% 20%), hsl(234deg 35% 20%)), radial-gradient(circle at top left, #feda75, #fa7e1e, #D62976, #962fbf, #4F5CD6);
+}
+
+.cardRS>li>div>div.box>a.twitter {
+    background-image: linear-gradient( rgb(40, 39, 100), rgb(26, 57, 62)), radial-gradient(circle at top left, #30e7ff, #3735a5);
+}

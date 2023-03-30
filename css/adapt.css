@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1000px) {
+    nav {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    ul.img {
+        grid-template-columns: auto auto;
+    }
+    div#guiaButtons {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    ul.card {
+        grid-template-columns: auto;
+    }
+    section>div>div.window {
+        grid-template-columns: 0px 100%;
+    }
+}

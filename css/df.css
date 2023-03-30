@@ -1,0 +1,79 @@
+:root {
+    /* Base Colors */
+    --color0: #111;
+    --color1: #1a1a1a;
+    --color2: #232323;
+    --color3: #333;
+    /* Texts Colors */
+    --textWhite: #eee;
+    --textWhite1: #ccc;
+    --textBlack: #333;
+    /* Texts Fonts */
+    --fontTitle: Oswald;
+    --fontText: monospace;
+    /* Borders */
+    --bord0: #745f25;
+}
+
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* Texts and Titles */
+
+h2,
+h3 {
+    color: var(--textWhite);
+    font-family: var(--fontTitle);
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--textWhite1);
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    margin-block: 1em;
+    background: var(--color3);
+    border-radius: 1em;
+}
+
+div.box {
+    padding: 1em;
+    background: var(--color2);
+    border-radius: 1em;
+}
+
+
+/* Videos */
+
+.fullVideo {
+    width: 100%;
+    border-radius: 0.25em;
+}
+
+
+/* SCROLL */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color2);
+}
